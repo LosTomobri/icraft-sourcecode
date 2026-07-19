@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "icraft:block/printer_side",
+        "down":     "icraft:block/printer_bottom",
+        "up":       "icraft:block/printer_top",
+        "north":    "icraft:block/printer_front",
+        "south":    "icraft:block/printer_side",
+        "east":     "icraft:block/printer_side",
+        "west":     "icraft:block/printer_side"
+    }
+}

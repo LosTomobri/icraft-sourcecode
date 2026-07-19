@@ -1,0 +1,85 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "icraft:item/phone",
+		"particle": "icraft:item/phone"
+	},
+	"elements": [
+		{
+			"from": [5.5, 0, 7.5],
+			"to": [11, 9, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.25, 5, 8]},
+			"faces": {
+				"north": {"uv": [0.5, 5, 3, 9.5], "texture": "#0"},
+				"east":  {"uv": [0, 5, 0.5, 9.5], "texture": "#0"},
+				"south": {"uv": [3.5, 5, 6, 9.5], "texture": "#0"},
+				"west":  {"uv": [3, 5, 3.5, 9.5], "texture": "#0"},
+				"up":    {"uv": [3, 5, 0.5, 4.5], "texture": "#0"},
+				"down":  {"uv": [5.5, 4.5, 3, 5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [4.5, 1, 8],
+			"to": [11.5, 10, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.25, 5, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 3.5, 4.5], "texture": "#0"},
+				"east":  {"uv": [0, 0, 0, 4.5],   "texture": "#0"},
+				"south": {"uv": [3.5, 0, 7, 4.5],  "texture": "#0"},
+				"west":  {"uv": [3.5, 0, 3.5, 4.5],"texture": "#0"},
+				"up":    {"uv": [3.5, 0, 0, 0],    "texture": "#0"},
+				"down":  {"uv": [7, 0, 3.5, 0],    "texture": "#0"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"overrides": [
+		{
+			"predicate": { "icraft:open": 1.0 },
+			"model": "icraft:item/smartphone_open"
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [-0.25, 5.75, 0.25],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"thirdperson_lefthand": {
+			"translation": [-0.25, 5.75, 0.25],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"firstperson_righthand": {
+			"rotation": [-14, -28, 0],
+			"translation": [0, 7.5, -2.25]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-14, -28, 0],
+			"translation": [0, 7.5, -2.25]
+		},
+		"ground": {
+			"rotation": [-37, 0, 0],
+			"translation": [2, 5.25, 1.25],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"gui": {
+			"rotation": [32, 32, 0],
+			"translation": [0, 4, 0],
+			"scale": [1.2, 1.2, 1.2]
+		},
+		"head": {
+			"rotation": [0, 0, 90],
+			"translation": [0, -1.5, -6.75],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"fixed": {
+			"rotation": [0, -180, 0],
+			"translation": [0, 6, -0.5],
+			"scale": [1.4, 1.4, 1.4]
+		},
+		"on_shelf": {
+			"translation": [0, 6, -0.5],
+			"scale": [2, 2, 2]
+		}
+	}
+}
