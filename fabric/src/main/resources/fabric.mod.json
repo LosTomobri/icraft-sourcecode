@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "icraft",
+  "version": "${version}",
+  "name": "iCraft",
+  "description": "iCraft adds a fully functional smartphone to Minecraft, with chat, camera, marketplace, notes and more apps to explore.",
+  "authors": [
+    "LosTomobri"
+  ],
+  "license": "MIT",
+  "icon": "icraft_logo.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.icraft.fabric.ICraftModFabric"
+    ],
+    "client": [
+      "com.icraft.fabric.ICraftModFabricClient"
+    ],
+    "voicechat": [
+      "com.icraft.voicechat.ICraftVoicechatPluginFabric"
+    ]
+  },
+  "mixins": [
+    "icraft.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "architectury": ">=13.0.8",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "voicechat_api": ">=2.6.20"
+  }
+}

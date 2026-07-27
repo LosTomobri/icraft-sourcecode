@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.icraft.fabric.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "GameRendererFovMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

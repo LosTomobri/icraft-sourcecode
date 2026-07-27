@@ -1,0 +1,87 @@
+{
+  "notification.franklin": {
+    "sounds": [
+      "icraft:notifications/franklin"
+    ]
+  },
+  "notification.gtav": {
+    "sounds": [
+      "icraft:notifications/gtav"
+    ]
+  },
+  "notification.michael": {
+    "sounds": [
+      "icraft:notifications/michael"
+    ]
+  },
+  "notification.trevor": {
+    "sounds": [
+      "icraft:notifications/trevor"
+    ]
+  },
+  "notification.android": {
+    "sounds": [
+      "icraft:notifications/android"
+    ]
+  },
+  "notification.snapchat": {
+    "sounds": [
+      "icraft:notifications/snapchat"
+    ]
+  },
+  "notification.whatsapp": {
+    "sounds": [
+      "icraft:notifications/whatsapp"
+    ]
+  },
+  "notification.xbox": {
+    "sounds": [
+      "icraft:notifications/xbox"
+    ]
+  },
+  "notification.motorola": {
+    "sounds": [
+      "icraft:notifications/motorola"
+    ]
+  },
+  "notification.motorola-2": {
+    "sounds": [
+      "icraft:notifications/motorola-2"
+    ]
+  },
+  "notification.samsung-1": {
+    "sounds": [
+      "icraft:notifications/samsung-1"
+    ]
+  },
+  "notification.samsung-2": {
+    "sounds": [
+      "icraft:notifications/samsung-2"
+    ]
+  },
+  "notification.samsung-3": {
+    "sounds": [
+      "icraft:notifications/samsung-3"
+    ]
+  },
+  "notification.samsung-4": {
+    "sounds": [
+      "icraft:notifications/samsung-4"
+    ]
+  },
+  "call.trevor": {
+    "sounds": [
+      "icraft:calls/trevor"
+    ]
+  },
+  "call.franklin": {
+    "sounds": [
+      "icraft:calls/franklin"
+    ]
+  },
+  "click.gtav": {
+    "sounds": [
+      "icraft:clicks/gtav"
+    ]
+  }
+}

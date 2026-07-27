@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.icraft.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "minVersion": "0.8",
+  "client": [
+  ],
+  "mixins": [
+    "MixinPlayerList"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
